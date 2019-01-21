@@ -134,7 +134,7 @@ class pytest(setuptools.command.test.test):
 
 
 setuptools.setup(
-    name=NAME,
+    name='pivotal_' + NAME,
     packages=setuptools.find_packages(exclude=['tests', 'tests.*']),
     version=meta['version'],
     description=meta['doc'],
